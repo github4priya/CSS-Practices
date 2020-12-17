@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Display Property</title>
+    <style>
+        
+        header {
+            margin: auto;
+            border: 3px solid black;
+            width: 15%;
+        }
+
+        img {
+            margin: auto;
+            display: block;
+            width: 34px;
+
+        }
+
+        h3 {
+            text-align: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0px;
+        }
+
+        .item {
+            border: 3px solid tomato;
+            padding: 34px 34px;
+            margin: 34px 34px;
+            background-color: grey;
+            width: 30%;
+           display: inline block;
+           box-sizing: border-box;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="top">
+        <img src="https://static.toiimg.com/photo/72975551.cms">
+        <h3>Welcome to my Priya blog</h3>
+    </header>
+    <div calss="container">
+        <div class="item">
+            <h3>Item1</h3> ipsum dolor sit amet consectetur adipisicing elit. Laborum laboriosam officia doloremque
+            eligendi minus tenetur beatae expedita officiis cum odio, eaque quo corrupti error inventore incidunt. Vitae
+            dolores excepturi consectetur nulla temporibus obcaecati, nemo eveniet iure iste maiores quos earum voluptas
+            veritatis, ut necessitatibus sit minima! Illum laudantium odio eos quasi eaque itaque similique nam atque
+            perspiciatis obcaecati velit libero fugit dolores voluptatum labore aliquid, in, veritatis excepturi
+            laboriosam maxime cupiditate consequatur? Nobis ex consequuntur suscipit odio aperiam dolor harum doloremque
+            a iste?
+        </div>
+        <div class="item">
+            <h3>Item2</h3>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi ipsam cupiditate, ad eveniet accusamus minus,
+            error adipisci rerum asperiores ea, mollitia molestias cum aliquid minima quam nesciunt maxime officia
+            facere commodi. Quia qui dolorem nulla perspiciatis harum distinctio quibusdam corrupti, eius, cumque quas
+            nam debitis quis unde odit temporibus ratione consequuntur? Temporibus possimus natus, laudantium maxime
+            praesentium placeat accusantium aliquam. Beatae magnam quod libero est pariatur. Architecto adipisci culpa
+            facere, qui labore modi voluptatibus blanditiis similique, possimus sit recusandae maxime ullam illum fuga
+            nulla.
+        </div>
+        <div class="item">
+            <h3>Item3</h3>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat, ea! Velit iusto vero illo ea
+            dignissimos debitis excepturi adipisci cupiditate aperiam voluptatibus ducimus quam suscipit provident,
+            est eos nobis quas eaque nostrum quae consequatur. Impedit maiores ab repellat magni voluptates itaque,
+            explicabo dolorum. At ut nihil ipsam! Adipisci illum dolore, accusamus nisi nesciunt numquam? Facilis
+            qui alias vel voluptatibus temporibus iure ab, expedita officiis dignissimos. Molestias quos deserunt
+            maiores, qui quas quibusdam voluptatem, quisquam voluptate magnam eius autem, culpa illo at ea aperiam
+            error eaque.
+
+        </div>
+
+    </div>
+</body>
+
+</html>
