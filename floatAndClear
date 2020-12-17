@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Float and Clear</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: sandybrown;
+        }
+
+        .container {
+            border: 3px solid rgb(153, 9, 9);
+            background-color: rgb(250, 139, 204);
+            margin: auto;
+            width: 900px;
+            height: 700px;
+            padding-top: 100px;
+        }
+
+        .item {
+
+            color: rgb(80, 6, 6);
+            padding: 12px 3px;
+            margin: 12px 3px;
+            background: rgb(159, 252, 37);
+            border: 5px solid rgb(11, 228, 58);
+        }
+
+        #fruit {
+            float: left;
+            width: 48%;
+        }
+
+        #computer {
+            float: left;
+            width: 48%;
+        }
+
+        #stationary {
+            clear: both;
+            float: left;
+            width: 100%;
+        }
+
+        h2 {
+            width: 650px;
+            margin: auto;
+        }
+
+        p,
+        h3 {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h2 id="head">Welcome to my store !</h2>
+        <hr>
+        <div id="fruit" class="item">
+            <h3>Fruit</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, ducimus maiores. Molestias, eos sit.
+                Adipisci saepe excepturi laudantium sunt quod architecto, accusantium nam? Lorem ipsum, dolor sit amet
+                consectetur adipisicing elit. Nulla illum modi, nihil sunt culpa quaerat voluptatum accusantium veniam
+                quasi, eaque placeat. At mollitia rem excepturi officiis architecto? Totam unde ad eveniet, nemo ipsa
+                odit!</p>
+        </div>
+        <div id="computer" class="item">
+            <h3>Computer</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur debitis placeat itaque? Quod minus
+                beatae
+                natus sed quaerat explicabo ipsum consectetur, officiis animi! Lorem ipsum dolor sit, amet consectetur
+                adipisicing elit. Nemo voluptas magnam sequi. Nihil possimus quibusdam dolores laborum commodi velit
+                incidunt sed dolore natus pariatur debitis quo est, fugiat, tempora, consequatur molestias odit quas
+                laudantium.</p>
+        </div>
+        <div id="stationary" class="item">
+            <h3>Stationary</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, neque voluptas nisi ab sequi ullam
+                unde,
+                soluta optio incidunt id perspiciatis quod delectus! Lorem ipsum dolor sit amet, consectetur adipisicing
+                elit. Unde exercitationem inventore voluptas? Perspiciatis incidunt adipisci sed rerum nam quos eius
+                officiis ab cupiditate distinctio illo animi architecto accusamus quas, alias inventore provident
+                eveniet ipsum.
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>
